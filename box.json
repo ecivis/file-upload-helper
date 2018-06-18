@@ -1,0 +1,46 @@
+{
+    "name":"file-upload-helper",
+    "version":"1.0.0",
+    "author":"Joseph Lamoree",
+    "location":"ecivis/file-upload-helper#v1.0.0",
+    "homepage":"https://github.com/ecivis/file-upload-helper",
+    "documentation":"https://github.com/ecivis/file-upload-helper",
+    "repository":{
+        "type":"git",
+        "URL":"https://github.com/ecivis/file-upload-helper"
+    },
+    "bugs":"https://github.com/ecivis/file-upload-helper/issues",
+    "slug":"file-upload-helper",
+    "shortDescription":"A helper for processing uploaded files.",
+    "description":"A helper for processing uploaded files.",
+    "type":"modules",
+    "dependencies":{},
+    "devDependencies":{
+        "testbox":"^2.4.0+80"
+    },
+    "installPaths":{
+        "testbox":"testbox",
+    },
+    "ignore":[
+        "**/.*",
+        "tests"
+    ],
+    "testbox":{
+        "runner":[
+            {
+                "default":"http://${SERVER_HOST:127.0.0.1}:${SERVER_PORT:59113}/tests/runner.cfm"
+            }
+        ],
+        "labels":"",
+        "reporter":"",
+        "bundles":"",
+        "recurse":true,
+        "directory":"tests.specs",
+        "testBundles":"",
+        "testSuites":"",
+        "testSpecs":"",
+        "verbose":true,
+        "watchDelay":500,
+        "watchPaths":"**.cfc"
+    }
+}
