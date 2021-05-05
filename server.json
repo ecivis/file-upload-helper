@@ -1,10 +1,11 @@
 {
     "openBrowser":false,
     "app":{
-        "cfengine":"lucee@5.2.8"
+        "cfengine":"lucee@5"
     },
     "jvm":{
         "heapSize":256,
-        "args":""
+        "args":"",
+        "javaVersion":"openjdk11"
     }
 }

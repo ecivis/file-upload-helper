@@ -61,6 +61,17 @@ These are the public methods from `File` that are now available:
 | exists() | Returns a boolean indicating if the CFML engine thinks the file really exists. |
 | delete() | Use this method to remove the file from the filesystem when it's no longer needed. |
 
+
+## Tests
+
+To execute the test suite -- modest as it is -- install the dependency and call the test runner:
+```
+$ box
+CommandBox> package install
+CommandBox> server start
+CommandBox> testbox run
+```
+
 ## License
 
 See the [LICENSE](LICENSE.txt) file for license rights and limitations (MIT).
