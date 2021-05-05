@@ -1,8 +1,8 @@
 {
     "name":"file-upload-helper",
-    "version":"1.1.0",
+    "version":"1.1.1",
     "author":"Joseph Lamoree",
-    "location":"ecivis/file-upload-helper#v1.1.0",
+    "location":"ecivis/file-upload-helper#v1.1.1",
     "homepage":"https://github.com/ecivis/file-upload-helper",
     "documentation":"https://github.com/ecivis/file-upload-helper",
     "repository":{
