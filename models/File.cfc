@@ -35,9 +35,6 @@ component {
             throw(type="InvalidArgumentException", message="The path argument must not be zero length.");
         }
         variables.path = normalizePath(arguments.path);
-        if (variables.path.left(1) != "/") {
-            throw(type="InvalidArgumentException", message="The path argument should be absolute.");
-        }
         variables.name = reReplace(variables.path, ".*/([^/]+)$", "\1");
         variables.extension = reReplaceNoCase(variables.name, ".*\.([a-z0-9]+)$", "\1");
     }
